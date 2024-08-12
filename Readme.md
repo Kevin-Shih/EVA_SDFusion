@@ -1,4 +1,11 @@
 # EVA_SDFusion
+## Download
+```bash
+git clone https://github.com/Kevin-Shih/EVA_SDFusion.git
+cd EVA_SDFusion
+git submodule update --init --recursive
+```
+
 ## Prepare data
 COCO dataset, please follow the official [guidelines](https://detectron2.readthedocs.io/en/latest/tutorials/builtin_datasets.html) in Detectron2. You can put it anywhere you like, just rememeber to specify the path when running the docker.
 
@@ -7,12 +14,14 @@ Overall, the structure of dataset should look like:
 /Host/path/to/dataset
 ├── coco
 ```
+
 ## Prepare ckpt
 ### For EVA
 Use link below to get the ckpt and put it under `EVA/ckpt/`
 ```bash
 wget https://huggingface.co/Yuxin-CV/EVA-02/resolve/main/eva02/det/eva02_B_coco_bsl.pth -O EVA/ckpt/eva02_B_coco_bsl.pth
 ```
+
 ### For SDFusion
 Use links below to get the ckpt and put it under `SDFusion/saved_ckpt/`
 ```bash
