@@ -1,0 +1,6 @@
+pred_masks/*
+SDFusion/saved_ckpt/*
+SDFusion/demo_results/*
+EVA/ckpt/*
+__pycache__/
+.ipynb*/
