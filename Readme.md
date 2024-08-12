@@ -7,12 +7,12 @@ git submodule update --init --recursive
 ```
 
 ## Prepare data
-COCO dataset, please follow the official [guidelines](https://detectron2.readthedocs.io/en/latest/tutorials/builtin_datasets.html) in Detectron2. You can put it anywhere you like, just rememeber to specify the path when running the docker.
-
+COCO dataset, please download `2017 Val images` from [COCO official website](https://cocodataset.org/#download). You can put it anywhere you like, just rememeber to specify the path when running the docker.
 Overall, the structure of dataset should look like:
 ```
 /Host/path/to/dataset
 ├── coco
+      ├── val2017
 ```
 
 ## Prepare ckpt
