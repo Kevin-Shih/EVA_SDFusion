@@ -1,0 +1,3 @@
+[submodule "SDFusion"]
+	path = SDFusion
+	url = https://github.com/Kevin-Shih/SDFusion.git
