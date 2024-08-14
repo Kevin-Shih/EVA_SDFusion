@@ -25,6 +25,7 @@ wget https://huggingface.co/Yuxin-CV/EVA-02/resolve/main/eva02/det/eva02_B_coco_
 ### For SDFusion
 Use links below to get the ckpt and put it under `SDFusion/saved_ckpt/`.
 ```bash
+mkdir SDFusion/saved_ckpt
 # VQVAE's checkpoint
 wget https://uofi.box.com/shared/static/zdb9pm9wmxaupzclc7m8gzluj20ja0b6.pth -O SDFusion/saved_ckpt/vqvae-snet-all.pth
 
